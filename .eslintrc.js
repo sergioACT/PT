@@ -1,7 +1,7 @@
 module.exports = {
    plugins: ['react', 'react-hooks', 'prettier'],
   root: true,
-  extends: 'airbnb',
+  extends: '@react-native',
   rules: {
     edi,
      'prettier/prettier': 'error',
