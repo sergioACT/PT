@@ -25,11 +25,11 @@ target 'PoliciaTorreonApp' do
   use_react_native!(
     :path => config[:reactNativePath],
     # An absolute path to your application root.
-    :app_path => "#{Pod::Config.instance.installation_root}/.."
+    :app_path => "#{Pod::Config.instance.installation_root}/..",
+    :hermes_enabled => false  # Habilitar Hermes
   )
-
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
-
+  
   target 'PoliciaTorreonAppTests' do
     inherit! :complete
     # Pods for testing
