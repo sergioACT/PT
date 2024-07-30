@@ -5,7 +5,7 @@ require Pod::Executable.execute_command('node', ['-p',
     {paths: [process.argv[1]]},
   )', __dir__]).strip
 
-  platform :ios, min_ios_version_supported
+platform :ios, '13.4'
 prepare_react_native_project!
  
 linkage = ENV['USE_FRAMEWORKS']
@@ -29,7 +29,7 @@ target 'PoliciaTorreonApp' do
     :hermes_enabled => false  # Habilitar Hermes
   )
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
-  
+
   target 'PoliciaTorreonAppTests' do
     inherit! :complete
     # Pods for testing
