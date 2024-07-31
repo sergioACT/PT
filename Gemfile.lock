@@ -96,10 +96,10 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (>= 6.1.7.5, < 7.1.0)
-  cocoapods (>= 1.13, < 1.15)
+  cocoapods (>= 1.13)
 
 RUBY VERSION
-   ruby 3.0.0p0
+   ruby 3.1.0p0
 
 BUNDLED WITH
    2.5.16

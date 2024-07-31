@@ -30,10 +30,7 @@ target 'PoliciaTorreonApp' do
   )
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
-  target 'PoliciaTorreonAppTests' do
-    inherit! :complete
-    # Pods for testing
+  post_install do |installer|
+    react_native_post_install(installer)
   end
-
-
 end

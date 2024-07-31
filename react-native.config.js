@@ -5,5 +5,10 @@ module.exports = {
         ios: null,
       },
     },
+    'lottie-react-native': {
+      platforms: {
+        ios: null, // disable auto-linking for iOS
+      },
+    },
   },
 };
