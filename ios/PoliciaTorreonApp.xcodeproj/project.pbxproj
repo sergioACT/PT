@@ -11,7 +11,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		1CD808520FE2190551B9C167 /* libPods-PoliciaTorreonApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFF88C9CCC90EE1AE399F30 /* libPods-PoliciaTorreonApp.a */; };
+		2762F22039B17BE16BDA6F14 /* libPods-PoliciaTorreonApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BBAEE855865C6B7FF4708C7 /* libPods-PoliciaTorreonApp.a */; };
 		2CF8C00C29A5954200B3FBBB /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8BFFC29A5951900B3FBBB /* Fontisto.ttf */; };
 		2CF8C00D29A5954200B3FBBB /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8BFFD29A5951900B3FBBB /* Octicons.ttf */; };
 		2CF8C00E29A5954200B3FBBB /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8BFFE29A5951900B3FBBB /* Feather.ttf */; };
@@ -28,6 +28,9 @@
 		2CF8C01929A5954200B3FBBB /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8C00929A5951900B3FBBB /* EvilIcons.ttf */; };
 		2CF8C01A29A5954200B3FBBB /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8C00A29A5951900B3FBBB /* SimpleLineIcons.ttf */; };
 		2CF8C01B29A5954200B3FBBB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8C00B29A5951900B3FBBB /* MaterialIcons.ttf */; };
+		7033DD8E2C60C62E00815A16 /* mainImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7033DD8D2C60C62E00815A16 /* mainImage.jpg */; };
+		7033DD922C60CC9B00815A16 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 7033DD912C60CC9B00815A16 /* main.jsbundle */; };
+		70AFAB7B2C5ED91300D50915 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70AFAB782C5E426200D50915 /* GoogleService-Info.plist */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +48,7 @@
 		00E356EE1AD99517003FC87E /* PoliciaTorreonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PoliciaTorreonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* PoliciaTorreonAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoliciaTorreonAppTests.m; sourceTree = "<group>"; };
+		0BBAEE855865C6B7FF4708C7 /* libPods-PoliciaTorreonApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PoliciaTorreonApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* PoliciaTorreonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoliciaTorreonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = PoliciaTorreonApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = PoliciaTorreonApp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -68,10 +72,12 @@
 		2CF8C00929A5951900B3FBBB /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
 		2CF8C00A29A5951900B3FBBB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		2CF8C00B29A5951900B3FBBB /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
-		75332585E97D449A9B69BA62 /* Pods-PoliciaTorreonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliciaTorreonApp.release.xcconfig"; path = "Target Support Files/Pods-PoliciaTorreonApp/Pods-PoliciaTorreonApp.release.xcconfig"; sourceTree = "<group>"; };
+		7033DD8D2C60C62E00815A16 /* mainImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mainImage.jpg; path = ../src/assets/img/mainImage.jpg; sourceTree = "<group>"; };
+		7033DD912C60CC9B00815A16 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		70AFAB782C5E426200D50915 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PoliciaTorreonApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ACFF88C9CCC90EE1AE399F30 /* libPods-PoliciaTorreonApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PoliciaTorreonApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BBE526AD290CA5B142FEF7B8 /* Pods-PoliciaTorreonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliciaTorreonApp.debug.xcconfig"; path = "Target Support Files/Pods-PoliciaTorreonApp/Pods-PoliciaTorreonApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CACF50B25454100EBDAFC274 /* Pods-PoliciaTorreonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliciaTorreonApp.debug.xcconfig"; path = "Target Support Files/Pods-PoliciaTorreonApp/Pods-PoliciaTorreonApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA353918AB8D5EC35157992 /* Pods-PoliciaTorreonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliciaTorreonApp.release.xcconfig"; path = "Target Support Files/Pods-PoliciaTorreonApp/Pods-PoliciaTorreonApp.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -87,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CD808520FE2190551B9C167 /* libPods-PoliciaTorreonApp.a in Frameworks */,
+				2762F22039B17BE16BDA6F14 /* libPods-PoliciaTorreonApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,7 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				ACFF88C9CCC90EE1AE399F30 /* libPods-PoliciaTorreonApp.a */,
+				0BBAEE855865C6B7FF4708C7 /* libPods-PoliciaTorreonApp.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -169,6 +175,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				7033DD912C60CC9B00815A16 /* main.jsbundle */,
+				7033DD8D2C60C62E00815A16 /* mainImage.jpg */,
+				70AFAB782C5E426200D50915 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* PoliciaTorreonApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* PoliciaTorreonAppTests */,
@@ -193,8 +202,8 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BBE526AD290CA5B142FEF7B8 /* Pods-PoliciaTorreonApp.debug.xcconfig */,
-				75332585E97D449A9B69BA62 /* Pods-PoliciaTorreonApp.release.xcconfig */,
+				CACF50B25454100EBDAFC274 /* Pods-PoliciaTorreonApp.debug.xcconfig */,
+				CBA353918AB8D5EC35157992 /* Pods-PoliciaTorreonApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -224,11 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "PoliciaTorreonApp" */;
 			buildPhases = (
-				04CA0275A96A03EBF138E9AB /* [CP] Check Pods Manifest.lock */,
+				16ABA843011E3F0BB53FE303 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
-				5C6AA69545E789763F3D0954 /* [CP] Copy Pods Resources */,
+				9765DCAD3F12E8756292A783 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +296,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7033DD922C60CC9B00815A16 /* main.jsbundle in Resources */,
+				7033DD8E2C60C62E00815A16 /* mainImage.jpg in Resources */,
+				70AFAB7B2C5ED91300D50915 /* GoogleService-Info.plist in Resources */,
 				2CF8C00C29A5954200B3FBBB /* Fontisto.ttf in Resources */,
 				2CF8C00D29A5954200B3FBBB /* Octicons.ttf in Resources */,
 				2CF8C00E29A5954200B3FBBB /* Feather.ttf in Resources */,
@@ -311,7 +323,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04CA0275A96A03EBF138E9AB /* [CP] Check Pods Manifest.lock */ = {
+		16ABA843011E3F0BB53FE303 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -333,7 +345,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5C6AA69545E789763F3D0954 /* [CP] Copy Pods Resources */ = {
+		9765DCAD3F12E8756292A783 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -385,6 +397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8R3KCSNMXU;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -412,6 +425,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 8R3KCSNMXU;
 				INFOPLIST_FILE = PoliciaTorreonAppTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -432,20 +446,23 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BBE526AD290CA5B142FEF7B8 /* Pods-PoliciaTorreonApp.debug.xcconfig */;
+			baseConfigurationReference = CACF50B25454100EBDAFC274 /* Pods-PoliciaTorreonApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.2;
+				DEVELOPMENT_TEAM = 8R3KCSNMXU;
 				ENABLE_BITCODE = NO;
-				INFOPLIST_FILE = PoliciaTorreonApp/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PoliciaTorreonApp/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Torreón seguro";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0.4;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -453,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = PoliciaTorreonApp;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -461,24 +479,22 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75332585E97D449A9B69BA62 /* Pods-PoliciaTorreonApp.release.xcconfig */;
+			baseConfigurationReference = CBA353918AB8D5EC35157992 /* Pods-PoliciaTorreonApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.2;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 8R3KCSNMXU;
-				INFOPLIST_FILE = PoliciaTorreonApp/Info.plist;
+				DEVELOPMENT_TEAM = 8R3KCSNMXU;
+				INFOPLIST_FILE = "$(SRCROOT)/PoliciaTorreonApp/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Torreón seguro";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 3.0.4;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -487,7 +503,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.makingof.policiatorreonseguro;
 				PRODUCT_NAME = PoliciaTorreonApp;
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Torreon seguro";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

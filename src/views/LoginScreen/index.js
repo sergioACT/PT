@@ -1,5 +1,5 @@
 import {useNavigation} from '@react-navigation/native';
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {View, Dimensions, Image} from 'react-native';
 import {TouchableWithoutFeedback} from 'react-native-gesture-handler';
 import {Text} from 'react-native-paper';
@@ -24,10 +24,21 @@ const LoginScreen = () => {
 
   const handleCustomAlert = () => setShowAlert(!showAlert);
 
+  const mainImage = require('./../../assets/img/mainImage.jpg');
+
+  useEffect(() => {
+    try {
+      const resolvedImage = Image.resolveAssetSource(mainImage);
+      console.log('Resolved Image URI:', resolvedImage?.uri);
+    } catch (error) {
+      console.error('Error resolving image source:', error);
+    }
+  }, []);
+
   return (
     <Screen scroll>
       <LayoutContainer>
-        <ImageStyled source={require('./../../assets/img/mainImage.jpg')} resizeMode="stretch" />
+        <ImageStyled source={mainImage} resizeMode="stretch" />
         <Container>
           <Title fontSize={25} mayus>
             Torreón Seguro

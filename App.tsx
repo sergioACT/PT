@@ -19,6 +19,8 @@ Geocode.setApiKey(process.env.GOOGLE_API_KEY as string);
 Geocode.setLanguage('es');
 Geocode.setRegion('mx');
 
+console.log("APIKEY"+ process.env.API_KEY);
+
 const App: React.FC = () => {
   const renderSuccesIcon = () => (
     <Icons type="materialCommunity" name="check" color="#fff" size={18} />
@@ -62,4 +64,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
