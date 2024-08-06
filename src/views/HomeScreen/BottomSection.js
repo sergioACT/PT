@@ -65,7 +65,7 @@ const BottomSection = () => {
           <Icons name="facebook" type="fa5" size={30} color="black" />
         </BasicButton>
         <BasicButton backgroundColor="transparent" isIcon={true} onPress={handleTwitter} styleIcon={{padding: 5}}>
-          <Icons name="x-twitter" type="fa5" size={30} color="black" />
+          <Icons name="square-x-twitter" type="fa5" size={30} color="black" />
         </BasicButton>
         <ActionSheet useNativeDriver ref={actionSheet} title={'¿A quién quieres llamar?'} options={['Línea directa con la Policía', 'Llamada al 911', 'Cancelar']} cancelButtonIndex={2} onPress={handleCallEmergencies} />
       </IconWrapper>

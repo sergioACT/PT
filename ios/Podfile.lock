@@ -1330,7 +1330,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNScreens (3.33.0):
+  - RNScreens (3.34.0):
     - DoubleConversion
     - glog
     - RCT-Folly (= 2024.01.01.00)
@@ -1665,7 +1665,7 @@ SPEC CHECKSUMS:
   RNGestureHandler: 4a12fc7c3d8b5688d3e55783cbd0d49286e82d1d
   RNPermissions: 4e3714e18afe7141d000beae3755e5b5fb2f5e05
   RNReanimated: 667f73ef89441b3cde1a640f617a162599792a1c
-  RNScreens: 3fe63745c35f823a0a8374a8521f25f5deb271cb
+  RNScreens: 83f0de0b3589f55dd46d4d4614d4770d5951caed
   RNSVG: af3907ac5d4fa26a862b75a16d8f15bc74f2ceda
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d
   Yoga: 56f906bf6c11c931588191dde1229fd3e4e3d557

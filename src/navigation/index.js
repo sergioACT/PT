@@ -53,6 +53,7 @@ const Navigation = () => {
                 }}
                 component={require('./../views/PanicScreen').default}
               />
+              <Stack.Screen name="ViolenciaFamiliarGeneroPanicScreen" options={{presentation: 'transparentModal',gestureEnabled: false,}}component={require('./../views/ViolenciaFamiliarGeneroPanicScreen').default}/>
 
               {/* User */}
               <Stack.Screen name="UserScreen" component={require('./../views/UserScreen').default} />

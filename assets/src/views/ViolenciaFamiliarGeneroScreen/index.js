@@ -1,25 +1,65 @@
+import { useNavigation } from '@react-navigation/core';
+import { onSnapshot } from 'firebase/firestore';
 import React, { useContext, useEffect, useState } from 'react';
-import { Dimensions,Image, Linking, View, Alert } from 'react-native';  // Agregado Alert
-import { Text } from 'react-native-paper';
+import { Dimensions, Image, View, Alert, Text } from 'react-native';
 import styled from 'styled-components';
+import { collectionUserCurrentUser, updateData } from '../../api/firebase/users';
+import { addEmergency, collectionEmergencies, updateEmergency } from '../../api/firebase/emergencies';
+import { COLORS } from '../../assets/theme/colors';
+import BasicButton from '../../components/Button';
 import NavBar from '../../components/NavBar';
 import Screen from '../../components/Screen';
-import BasicButton from '../../components/Button';
-import { COLORS } from '../../assets/theme/colors';
-import ViolenciaGeneroPanicButton from '../../components/Button/ViolenciaDeGeneroPanicButton';
+import Title from '../../components/Title';
 import { Context } from '../../context';
+import ViolenciaGeneroPanicButton from '../../components/Button/ViolenciaDeGeneroPanicButton';
 import BottomSection from '../HomeScreen/BottomSection';
+import MenuSection from '../HomeScreen/MenuSection';
 
 const dimensions = Dimensions.get('window');
 const imageHeight = Math.round((dimensions.width * 9) / 16);
 const imageWidth = dimensions.width;
 
 const ViolenciaFamiliarGeneroScreen = () => {
+  const navigation = useNavigation();
+
   const { userData, setUserData, currentEmergency, setCurrentEmergency, setRealEmergency } = useContext(Context);
 
   const [hasActiveEmergency, setHasActiveEmeregency] = useState(userData?.hasEmergency);
 
+  useEffect(() => {
+    const unsubscribeEmergency = onSnapshot(collectionUserCurrentUser(userData.id), snapshot => {
+      setHasActiveEmeregency(snapshot?.data()?.hasEmergency);
+
+      if (snapshot?.data()?.hasEmergency) {
+        setCurrentEmergency({ id: snapshot?.data()?.emergencyId });
+      }
+    });
+
+    const unsubscribeEmergencies = onSnapshot(collectionEmergencies, snapshot => {
+      let emergencies = snapshot.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data(),
+      }));
+      setRealEmergency(emergencies.find(e => e.userId == userData.id));
+    });
+
+    return () => {
+      unsubscribeEmergency();
+      unsubscribeEmergencies();
+    };
+  }, []);
+
+  useEffect(() => {
+    if (hasActiveEmergency) {
+      navigation.navigate('PanicScreen', {
+        onDisableEmergency: handlePressEmergency,
+        currentEmergency,
+      });
+    }
+  }, [hasActiveEmergency]);
+
   const handlePressEmergency = async () => {
+    console.log('Botón de pánico presionado');
     let newValue = !hasActiveEmergency;
 
     let emergency = {
@@ -34,6 +74,7 @@ const ViolenciaFamiliarGeneroScreen = () => {
     if (newValue) {
       await addEmergency(emergency)
         .then(res => {
+          console.log('Emergencia añadida:', res.id);
           emergency.id = res.id;
           setCurrentEmergency({ ...emergency });
         })
@@ -47,6 +88,7 @@ const ViolenciaFamiliarGeneroScreen = () => {
     } else {
       updateEmergency({ closeDate: Date.now(), status: 'finishedByUser' }, currentEmergency?.id)
         .then(() => {
+          console.log('Emergencia desactivada');
           emergency.id = currentEmergency?.id;
           setCurrentEmergency(null);
         })
@@ -61,6 +103,7 @@ const ViolenciaFamiliarGeneroScreen = () => {
 
     updateData({ hasEmergency: newValue, emergencyId: newValue ? emergency.id : '' }, userData.id)
       .then(() => {
+        console.log('Datos del usuario actualizados');
         setUserData({ ...userData, hasEmergency: newValue, emergencyId: newValue ? emergency.id : '' });
         setHasActiveEmeregency(newValue);
       })
@@ -75,16 +118,16 @@ const ViolenciaFamiliarGeneroScreen = () => {
 
   return (
     <Screen scroll>
-      <NavBar hasBackButton />
+      <NavBar onPressUser />
       <LayoutContainer>
         <Container>
           <InfoText>BOTÓN DE PÁNICO EXCLUSIVO PARA VIOLENCIA FAMILIAR Y DE GÉNERO</InfoText>
-          <ContainerPanicButton> 
+          <ContainerPanicButton>
             <PanicButtonStyled backgroundColor={COLORS().orange} colorText={COLORS().white} onPress={handlePressEmergency} hasEmergency={hasActiveEmergency} />
           </ContainerPanicButton>
-          <ImageStyled source={require('./../../assets/img/unidad_atencion_victimas.jpeg')} resizeMode="contain" />
-          <BottomSection />
         </Container>
+        <ImageStyled source={require('./../../assets/img/unidad_atencion_victimas.jpeg')} resizeMode="contain" />
+        <BottomSection />
       </LayoutContainer>
     </Screen>
   );
