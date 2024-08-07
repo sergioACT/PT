@@ -122,7 +122,7 @@ dependencies {
     implementation project(':react-native-vector-icons')
     implementation project(':react-native-splash-screen')
 
-    if (hermesEnabled.toBoolean()) {
+    if (false) {
         implementation("com.facebook.react:hermes-android")
     } else {
         implementation jscFlavor
