@@ -1,4 +1,11 @@
 {
   "name": "policiatorreonapp",
-  "displayName": "PoliciaTorreonApp"
+  "displayName": "PoliciaTorreonApp",
+  "resources": [
+    "./src/assets/img/mainImage.jpg",
+    "./src/assets/img/academy.png",
+    "./src/assets/img/unidad_atencion_victimas.jpeg",
+    "./src/assets/img/user.png"
+
+  ]
 }

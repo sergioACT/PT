@@ -28,12 +28,12 @@
 		2CF8C01929A5954200B3FBBB /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8C00929A5951900B3FBBB /* EvilIcons.ttf */; };
 		2CF8C01A29A5954200B3FBBB /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8C00A29A5951900B3FBBB /* SimpleLineIcons.ttf */; };
 		2CF8C01B29A5954200B3FBBB /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CF8C00B29A5951900B3FBBB /* MaterialIcons.ttf */; };
-		707B99012C6181E400D1FDB1 /* academy.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B98F72C61807B00D1FDB1 /* academy.png */; };
-		707B99022C6181EF00D1FDB1 /* mainImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 707B98F82C61807B00D1FDB1 /* mainImage.jpg */; };
-		707B99032C6181F200D1FDB1 /* unidad_atencion_victimas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 707B98F92C61807B00D1FDB1 /* unidad_atencion_victimas.jpeg */; };
-		707B99042C6181F400D1FDB1 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 707B98FA2C61807B00D1FDB1 /* user.png */; };
-		707B99102C6199F500D1FDB1 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 707B990F2C6199F500D1FDB1 /* main.jsbundle */; };
+		705EDE682C6439AA002DE284 /* mainImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 705EDE642C6439AA002DE284 /* mainImage.jpg */; };
+		705EDE692C6439AA002DE284 /* academy.png in Resources */ = {isa = PBXBuildFile; fileRef = 705EDE652C6439AA002DE284 /* academy.png */; };
+		705EDE6A2C6439AA002DE284 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 705EDE662C6439AA002DE284 /* user.png */; };
+		705EDE6B2C6439AA002DE284 /* unidad_atencion_victimas.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 705EDE672C6439AA002DE284 /* unidad_atencion_victimas.jpeg */; };
 		70AFAB7B2C5ED91300D50915 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 70AFAB782C5E426200D50915 /* GoogleService-Info.plist */; };
+		70F9CE192C6FF7A300A29D6E /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = 70F9CE182C6FF7A300A29D6E /* main.jsbundle */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -75,17 +75,20 @@
 		2CF8C00929A5951900B3FBBB /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
 		2CF8C00A29A5951900B3FBBB /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
 		2CF8C00B29A5951900B3FBBB /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
-		707B98E82C61807B00D1FDB1 /* mainImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainImage.jpg; sourceTree = "<group>"; };
-		707B98EE2C61807B00D1FDB1 /* back-icon-mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon-mask.png"; sourceTree = "<group>"; };
-		707B98EF2C61807B00D1FDB1 /* back-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon.png"; sourceTree = "<group>"; };
-		707B98F02C61807B00D1FDB1 /* back-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@2x.png"; sourceTree = "<group>"; };
-		707B98F12C61807B00D1FDB1 /* back-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-icon@3x.png"; sourceTree = "<group>"; };
-		707B98F72C61807B00D1FDB1 /* academy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = academy.png; sourceTree = "<group>"; };
-		707B98F82C61807B00D1FDB1 /* mainImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainImage.jpg; sourceTree = "<group>"; };
-		707B98F92C61807B00D1FDB1 /* unidad_atencion_victimas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unidad_atencion_victimas.jpeg; sourceTree = "<group>"; };
-		707B98FA2C61807B00D1FDB1 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
-		707B990F2C6199F500D1FDB1 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		705EDE502C642B9B002DE284 /* academy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = academy.png; path = ../assets/src/assets/img/academy.png; sourceTree = "<group>"; };
+		705EDE512C642B9B002DE284 /* mainImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mainImage.jpg; path = ../assets/src/assets/img/mainImage.jpg; sourceTree = "<group>"; };
+		705EDE522C642B9B002DE284 /* unidad_atencion_victimas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unidad_atencion_victimas.jpeg; path = ../assets/src/assets/img/unidad_atencion_victimas.jpeg; sourceTree = "<group>"; };
+		705EDE532C642B9B002DE284 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = ../assets/src/assets/img/user.png; sourceTree = "<group>"; };
+		705EDE5A2C64324E002DE284 /* academy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = academy.png; path = ../src/assets/img/academy.png; sourceTree = "<group>"; };
+		705EDE5B2C64324E002DE284 /* unidad_atencion_victimas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unidad_atencion_victimas.jpeg; path = ../src/assets/img/unidad_atencion_victimas.jpeg; sourceTree = "<group>"; };
+		705EDE5C2C64324F002DE284 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = ../src/assets/img/user.png; sourceTree = "<group>"; };
+		705EDE5D2C64324F002DE284 /* mainImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mainImage.jpg; path = ../src/assets/img/mainImage.jpg; sourceTree = "<group>"; };
+		705EDE642C6439AA002DE284 /* mainImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mainImage.jpg; path = ../assets/src/assets/img/mainImage.jpg; sourceTree = "<group>"; };
+		705EDE652C6439AA002DE284 /* academy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = academy.png; path = ../assets/src/assets/img/academy.png; sourceTree = "<group>"; };
+		705EDE662C6439AA002DE284 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = user.png; path = ../assets/src/assets/img/user.png; sourceTree = "<group>"; };
+		705EDE672C6439AA002DE284 /* unidad_atencion_victimas.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unidad_atencion_victimas.jpeg; path = ../assets/src/assets/img/unidad_atencion_victimas.jpeg; sourceTree = "<group>"; };
 		70AFAB782C5E426200D50915 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		70F9CE182C6FF7A300A29D6E /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PoliciaTorreonApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CACF50B25454100EBDAFC274 /* Pods-PoliciaTorreonApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliciaTorreonApp.debug.xcconfig"; path = "Target Support Files/Pods-PoliciaTorreonApp/Pods-PoliciaTorreonApp.debug.xcconfig"; sourceTree = "<group>"; };
 		CBA353918AB8D5EC35157992 /* Pods-PoliciaTorreonApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PoliciaTorreonApp.release.xcconfig"; path = "Target Support Files/Pods-PoliciaTorreonApp/Pods-PoliciaTorreonApp.release.xcconfig"; sourceTree = "<group>"; };
@@ -176,126 +179,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		707B98E92C61807B00D1FDB1 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				707B98E82C61807B00D1FDB1 /* mainImage.jpg */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
-		707B98EA2C61807B00D1FDB1 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				707B98E92C61807B00D1FDB1 /* img */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
-		707B98EB2C61807B00D1FDB1 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				707B98EA2C61807B00D1FDB1 /* assets */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		707B98EC2C61807B00D1FDB1 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				707B98EB2C61807B00D1FDB1 /* src */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
-		707B98ED2C61807B00D1FDB1 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				707B98EC2C61807B00D1FDB1 /* assets */,
-			);
-			path = ios;
-			sourceTree = "<group>";
-		};
-		707B98F22C61807B00D1FDB1 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				707B98EE2C61807B00D1FDB1 /* back-icon-mask.png */,
-				707B98EF2C61807B00D1FDB1 /* back-icon.png */,
-				707B98F02C61807B00D1FDB1 /* back-icon@2x.png */,
-				707B98F12C61807B00D1FDB1 /* back-icon@3x.png */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
-		707B98F32C61807B00D1FDB1 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				707B98F22C61807B00D1FDB1 /* assets */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		707B98F42C61807B00D1FDB1 /* elements */ = {
-			isa = PBXGroup;
-			children = (
-				707B98F32C61807B00D1FDB1 /* src */,
-			);
-			path = elements;
-			sourceTree = "<group>";
-		};
-		707B98F52C61807B00D1FDB1 /* @react-navigation */ = {
-			isa = PBXGroup;
-			children = (
-				707B98F42C61807B00D1FDB1 /* elements */,
-			);
-			path = "@react-navigation";
-			sourceTree = "<group>";
-		};
-		707B98F62C61807B00D1FDB1 /* node_modules */ = {
-			isa = PBXGroup;
-			children = (
-				707B98F52C61807B00D1FDB1 /* @react-navigation */,
-			);
-			path = node_modules;
-			sourceTree = "<group>";
-		};
-		707B98FB2C61807B00D1FDB1 /* img */ = {
-			isa = PBXGroup;
-			children = (
-				707B98F72C61807B00D1FDB1 /* academy.png */,
-				707B98F82C61807B00D1FDB1 /* mainImage.jpg */,
-				707B98F92C61807B00D1FDB1 /* unidad_atencion_victimas.jpeg */,
-				707B98FA2C61807B00D1FDB1 /* user.png */,
-			);
-			path = img;
-			sourceTree = "<group>";
-		};
-		707B98FC2C61807B00D1FDB1 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				707B98FB2C61807B00D1FDB1 /* img */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
-		707B98FD2C61807B00D1FDB1 /* src */ = {
-			isa = PBXGroup;
-			children = (
-				707B98FC2C61807B00D1FDB1 /* assets */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		707B98FE2C61807B00D1FDB1 /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				707B98ED2C61807B00D1FDB1 /* ios */,
-				707B98F62C61807B00D1FDB1 /* node_modules */,
-				707B98FD2C61807B00D1FDB1 /* src */,
-			);
-			path = assets;
-			sourceTree = "<group>";
-		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,8 +189,19 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				707B990F2C6199F500D1FDB1 /* main.jsbundle */,
-				707B98FE2C61807B00D1FDB1 /* assets */,
+				70F9CE182C6FF7A300A29D6E /* main.jsbundle */,
+				705EDE652C6439AA002DE284 /* academy.png */,
+				705EDE642C6439AA002DE284 /* mainImage.jpg */,
+				705EDE672C6439AA002DE284 /* unidad_atencion_victimas.jpeg */,
+				705EDE662C6439AA002DE284 /* user.png */,
+				705EDE5A2C64324E002DE284 /* academy.png */,
+				705EDE5D2C64324F002DE284 /* mainImage.jpg */,
+				705EDE5B2C64324E002DE284 /* unidad_atencion_victimas.jpeg */,
+				705EDE5C2C64324F002DE284 /* user.png */,
+				705EDE502C642B9B002DE284 /* academy.png */,
+				705EDE512C642B9B002DE284 /* mainImage.jpg */,
+				705EDE522C642B9B002DE284 /* unidad_atencion_victimas.jpeg */,
+				705EDE532C642B9B002DE284 /* user.png */,
 				70AFAB782C5E426200D50915 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* PoliciaTorreonApp */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
@@ -427,11 +321,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				707B99102C6199F500D1FDB1 /* main.jsbundle in Resources */,
-				707B99042C6181F400D1FDB1 /* user.png in Resources */,
-				707B99032C6181F200D1FDB1 /* unidad_atencion_victimas.jpeg in Resources */,
-				707B99022C6181EF00D1FDB1 /* mainImage.jpg in Resources */,
-				707B99012C6181E400D1FDB1 /* academy.png in Resources */,
+				70F9CE192C6FF7A300A29D6E /* main.jsbundle in Resources */,
+				705EDE682C6439AA002DE284 /* mainImage.jpg in Resources */,
+				705EDE692C6439AA002DE284 /* academy.png in Resources */,
+				705EDE6A2C6439AA002DE284 /* user.png in Resources */,
+				705EDE6B2C6439AA002DE284 /* unidad_atencion_victimas.jpeg in Resources */,
 				70AFAB7B2C5ED91300D50915 /* GoogleService-Info.plist in Resources */,
 				2CF8C00C29A5954200B3FBBB /* Fontisto.ttf in Resources */,
 				2CF8C00D29A5954200B3FBBB /* Octicons.ttf in Resources */,
@@ -583,10 +477,11 @@
 			baseConfigurationReference = CACF50B25454100EBDAFC274 /* Pods-PoliciaTorreonApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 8R3KCSNMXU;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_BITCODE = NO;
@@ -597,7 +492,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0.4;
+				MARKETING_VERSION = 3.1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -617,11 +512,12 @@
 			baseConfigurationReference = CBA353918AB8D5EC35157992 /* Pods-PoliciaTorreonApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 8R3KCSNMXU;
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -633,7 +529,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 3.0.4;
+				MARKETING_VERSION = 3.1.1;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -721,10 +617,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = false;
@@ -761,7 +654,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
 				COPY_PHASE_STRIP = NO;
 				CXX = "";
 				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = YES;
@@ -797,10 +690,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = false;

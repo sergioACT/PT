@@ -41,7 +41,7 @@ const UserScreen = () => {
       <LayoutContainer>
         <Container>
           <Name>{userData?.name}</Name>
-          <ImageStyled source={require('./../../assets/img/user.png')} />
+          <ImageStyled source={{uri: 'https://i.imgur.com/DPiX4o8.png'}} />
           <ChangeButtonStyled
             text={'Actualizar datos'}
             onPress={handleEditUser}

@@ -25,7 +25,7 @@ const AcademyScreen = () => {
     <Screen scroll>
       <NavBar hasBackButton />
       <LayoutContainer>
-        <ImageStyled source={require('./../../assets/img/academy.png')} resizeMode="stretch" />
+        <ImageStyled source={{uri: 'https://i.imgur.com/wUY6jZV.png'}} resizeMode="stretch" />
         <Container>
           <InfoText>REQUISITOS</InfoText>
           <InfoOption>Edad: 19 a 39 años</InfoOption>

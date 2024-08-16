@@ -118,7 +118,7 @@ const ViolenciaFamiliarGeneroScreen = () => {
 
   return (
     <Screen scroll>
-      <NavBar onPressUser />
+      <NavBar hasBackButton />
       <LayoutContainer>
         <Container>
           <InfoText>BOTÓN DE PÁNICO EXCLUSIVO PARA VIOLENCIA FAMILIAR Y DE GÉNERO</InfoText>
@@ -126,7 +126,7 @@ const ViolenciaFamiliarGeneroScreen = () => {
             <PanicButtonStyled backgroundColor={COLORS().orange} colorText={COLORS().white} onPress={handlePressEmergency} hasEmergency={hasActiveEmergency} />
           </ContainerPanicButton>
         </Container>
-        <ImageStyled source={require('./../../assets/img/unidad_atencion_victimas.jpeg')} resizeMode="contain" />
+        <ImageStyled source={{uri : 'https://i.imgur.com/oPVKd84.jpeg'}} resizeMode="contain" />
         <BottomSection />
       </LayoutContainer>
     </Screen>
