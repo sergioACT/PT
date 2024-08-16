@@ -5,6 +5,8 @@ import {COLORS} from '../../assets/theme/colors';
 import BasicButton from '../../components/Button';
 import Icons from '../../components/Icons';
 import ActionSheet from 'react-native-actionsheet';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import { faMugSaucer } from '@fortawesome/free-solid-svg-icons/faMugSaucer'
 
 LogBox.ignoreLogs(['Animated: `useNativeDriver`']);
 
@@ -65,7 +67,8 @@ const BottomSection = () => {
           <Icons name="facebook" type="fa5" size={30} color="black" />
         </BasicButton>
         <BasicButton backgroundColor="transparent" isIcon={true} onPress={handleTwitter} styleIcon={{padding: 5}}>
-          <Icons name="square-x-twitter" type="fa5" size={30} color="black" />
+          <Icons name="twitter" type="fa5" size={30} color="black" />
+
         </BasicButton>
         <ActionSheet useNativeDriver ref={actionSheet} title={'¿A quién quieres llamar?'} options={['Línea directa con la Policía', 'Llamada al 911', 'Cancelar']} cancelButtonIndex={2} onPress={handleCallEmergencies} />
       </IconWrapper>

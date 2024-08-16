@@ -53,7 +53,7 @@ const MapViewScreen = props => {
         {report && (
           <Marker
             coordinate={report.location.coords}
-            title={report.incident}
+            title={report.title}
             description={report.description}>
             <Icons
               type="entypo"

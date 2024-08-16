@@ -118,7 +118,7 @@ const ViolenciaFamiliarGeneroScreen = () => {
 
   return (
     <Screen scroll>
-      <NavBar onPressUser />
+      <NavBar hasBackButton />
       <LayoutContainer>
         <Container>
           <InfoText>BOTÓN DE PÁNICO EXCLUSIVO PARA VIOLENCIA FAMILIAR Y DE GÉNERO</InfoText>
