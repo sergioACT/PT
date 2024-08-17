@@ -5,6 +5,8 @@ import {COLORS} from '../../assets/theme/colors';
 import BasicButton from '../../components/Button';
 import Icons from '../../components/Icons';
 import ActionSheet from 'react-native-actionsheet';
+import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome'
+import { faMugSaucer } from '@fortawesome/free-solid-svg-icons/faMugSaucer'
 
 LogBox.ignoreLogs(['Animated: `useNativeDriver`']);
 
